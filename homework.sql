@@ -23,7 +23,7 @@
 --UPDATE grade SET EXCELLENT='yes' WHERE id=4;
 --UPDATE grade SET EXCELLENT='yes' WHERE id=5;
 
---9.SELECT s.id, s.name, s.city, s.birth, g.grade FROM studebts s JOIn 
+--9.SELECT s.id, s.name, s.city, s.birth, g.grade FROM students s JOIn 
 --grade g ON s.id=g.id WHERE g.grade > (SELECT AVG(grade) from grade)
 
 --10.SELECT s.id, s.name, s.city, s.birth, g.grade FROM students s JOIN
